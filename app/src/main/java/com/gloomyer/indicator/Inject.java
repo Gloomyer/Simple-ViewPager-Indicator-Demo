@@ -41,7 +41,7 @@ public class Inject extends FrameLayout implements ViewPager.OnPageChangeListene
         {
             OvalShape ovalShape = new OvalShape();
             selectShape = new ShapeDrawable(ovalShape);
-            selectShape.getPaint().setColor(Color.BLUE);
+            selectShape.getPaint().setColor(Color.rgb(0x75, 0xd1, 0xd9));
             selectShape.getPaint().setStyle(Paint.Style.FILL_AND_STROKE);
         }
 

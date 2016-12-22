@@ -15,7 +15,17 @@
         android:id="@+id/mInject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@null"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="270dp" />
+        android:layout_marginTop="270dp"
+        android:background="@null" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:background="@null"
+        android:text="感谢一只傻猫同学帮我选择的标题栏颜色"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
 </FrameLayout>
